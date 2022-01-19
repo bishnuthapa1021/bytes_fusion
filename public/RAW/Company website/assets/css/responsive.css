@@ -1,0 +1,49 @@
+@media only screen and (max-width: 768px) {
+  
+  .t-row{
+  	overflow: hidden;
+  }
+  .ofc-hrs{
+  	margin-top: 12px;
+  }
+
+  .ofc-add{
+  	margin-top: 10px;
+  }
+  .t-btn{
+  	margin-top: 10px;
+  	margin-bottom: 5px;
+  }
+
+  .social{
+  	margin-left: 23px;
+  }
+
+  #myCarousel .carousel-item .mask img {
+    -webkit-animation-name: slideInRight;
+    animation-name: slideInRight;
+    display: block;
+    height: 198px;
+    margin-top: 5px;
+    max-width: 100%;
+}
+#myCarousel .carousel-item h4 {
+    -webkit-animation-name: fadeInLeft;
+    animation-name: fadeInLeft;
+    font-size: 25px;
+}
+#myCarousel .carousel-item p {
+    -webkit-animation-name: slideInRight;
+    animation-name: slideInRight;
+    line-height: 23px;
+    font-size: 14px;
+}
+}
+
+/* Large screen desktop */
+@media (min-width: 1366px) and (max-width: 1500px){
+
+
+}
+
+
